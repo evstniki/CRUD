@@ -1,6 +1,6 @@
 # CRUD App
 
-This is a simple CRUD (Create, Read, Update, Delete) application built with React and TypeScript. The application allows you to manage a list of items, with functionality to add, edit, and delete items.
+This is a simple CRUD (Create, Read, Update, Delete) application built with React and TypeScript. The application allows you to manage a list of items, with functionality to add, edit, and delete items..
 
 ## Features
 
