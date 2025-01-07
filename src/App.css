@@ -90,3 +90,11 @@ button:hover {
 .item button.edit:hover {
   background-color: #218838;
 }
+
+.item input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}

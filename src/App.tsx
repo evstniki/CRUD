@@ -28,11 +28,8 @@ const App: React.FC = () => {
     setItems(items.filter((item) => item.id !== id));
   };
 
-  const handleEditItem = (id: string) => {
-    const item = items.find((item) => item.id === id);
-    if (item) {
-      setEditingItem(item);
-    }
+  const handleEditItem = (id: string, name: string) => {
+    setItems(items.map((item) => (item.id === id ? { ...item, name } : item)));
   };
 
   return (
