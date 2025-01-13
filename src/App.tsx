@@ -3,10 +3,10 @@ import MyForm from "./component/Form";
 
 const App = () => {
   return (
-    <div>
-      <h1 className='title'>My Form</h1>
+    <>
+      <h1 className='title'>My CRUD Form</h1>
       <MyForm />
-    </div>
+    </>
   );
 };
 
