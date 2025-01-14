@@ -161,10 +161,11 @@ const MyForm: React.FC = () => {
     values: FormValues,
     { setSubmitting }: FormikHelpers<FormValues>
   ) => {
-    console.log(values);
-    dispatch(submitForm(values)).finally(() => setSubmitting(false));
+    const token = "your_token_here"; // Replace this with the actual token retrieval logic
+    dispatch(submitForm({ formData: values, token })).finally(() =>
+      setSubmitting(false)
+    );
   };
-
   return (
     <Formik
       initialValues={initialValues}
